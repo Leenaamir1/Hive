@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B172FBA72A24EC6A00D4A047 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B172FBA62A24EC6A00D4A047 /* model.swift */; };
+		B172FBA92A25138200D4A047 /* bottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B172FBA82A25138200D4A047 /* bottomSheet.swift */; };
+		B172FBAB2A25145000D4A047 /* JobViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B172FBAA2A25145000D4A047 /* JobViewUI.swift */; };
+		B172FBAD2A25149800D4A047 /* ADDjobView_cuurct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B172FBAC2A25149800D4A047 /* ADDjobView_cuurct.swift */; };
+		B1950B642A1910A500AC440B /* hivedemotryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1950B632A1910A500AC440B /* hivedemotryApp.swift */; };
+		B1950B662A1910A500AC440B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1950B652A1910A500AC440B /* ContentView.swift */; };
+		B1950B682A1910A600AC440B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1950B672A1910A600AC440B /* Assets.xcassets */; };
+		B1950B6B2A1910A600AC440B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1950B6A2A1910A600AC440B /* Preview Assets.xcassets */; };
+		B1950B752A1910A600AC440B /* hivedemotryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1950B742A1910A600AC440B /* hivedemotryTests.swift */; };
+		B1950B7F2A1910A600AC440B /* hivedemotryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1950B7E2A1910A600AC440B /* hivedemotryUITests.swift */; };
+		B1950B812A1910A600AC440B /* hivedemotryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1950B802A1910A600AC440B /* hivedemotryUITestsLaunchTests.swift */; };
+		B1950B8F2A19110800AC440B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B1950B8E2A19110800AC440B /* FirebaseAnalytics */; };
+		B1950B912A19110800AC440B /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = B1950B902A19110800AC440B /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		B1950B932A19110800AC440B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B1950B922A19110800AC440B /* FirebaseAuth */; };
+		B1950B952A19110800AC440B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B1950B942A19110800AC440B /* FirebaseFirestore */; };
+		B1950B972A19110800AC440B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B1950B962A19110800AC440B /* FirebaseFirestoreSwift */; };
+		B1950B992A19110800AC440B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B1950B982A19110800AC440B /* FirebaseStorage */; };
+		B1950B9B2A19118100AC440B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1950B9A2A19118100AC440B /* GoogleService-Info.plist */; };
+		B1950B9D2A19206100AC440B /* logIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1950B9C2A19206100AC440B /* logIn.swift */; };
+		B1950BA32A1934A900AC440B /* FirebaseUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1950BA22A1934A900AC440B /* FirebaseUserManager.swift */; };
+		B1950BA62A194C6100AC440B /* forgetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1950BA52A194C6100AC440B /* forgetPassword.swift */; };
+		B1950BA82A19E81200AC440B /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1950BA72A19E81200AC440B /* home.swift */; };
+		B1B734B02A23A9860046FC1F /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B734AF2A23A9860046FC1F /* SignUp.swift */; };
+		B1B734B22A23B85F0046FC1F /* pathsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B734B12A23B85F0046FC1F /* pathsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1950B712A1910A600AC440B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1950B582A1910A400AC440B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1950B5F2A1910A500AC440B;
+			remoteInfo = hivedemotry;
+		};
+		B1950B7B2A1910A600AC440B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1950B582A1910A400AC440B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1950B5F2A1910A500AC440B;
+			remoteInfo = hivedemotry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B172FBA62A24EC6A00D4A047 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		B172FBA82A25138200D4A047 /* bottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomSheet.swift; sourceTree = "<group>"; };
+		B172FBAA2A25145000D4A047 /* JobViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewUI.swift; sourceTree = "<group>"; };
+		B172FBAC2A25149800D4A047 /* ADDjobView_cuurct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADDjobView_cuurct.swift; sourceTree = "<group>"; };
+		B1950B602A1910A500AC440B /* hivedemotry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hivedemotry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1950B632A1910A500AC440B /* hivedemotryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hivedemotryApp.swift; sourceTree = "<group>"; };
+		B1950B652A1910A500AC440B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1950B672A1910A600AC440B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1950B6A2A1910A600AC440B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1950B702A1910A600AC440B /* hivedemotryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hivedemotryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1950B742A1910A600AC440B /* hivedemotryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hivedemotryTests.swift; sourceTree = "<group>"; };
+		B1950B7A2A1910A600AC440B /* hivedemotryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hivedemotryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1950B7E2A1910A600AC440B /* hivedemotryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hivedemotryUITests.swift; sourceTree = "<group>"; };
+		B1950B802A1910A600AC440B /* hivedemotryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hivedemotryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1950B9A2A19118100AC440B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B1950B9C2A19206100AC440B /* logIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logIn.swift; sourceTree = "<group>"; };
+		B1950BA22A1934A900AC440B /* FirebaseUserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUserManager.swift; sourceTree = "<group>"; };
+		B1950BA52A194C6100AC440B /* forgetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetPassword.swift; sourceTree = "<group>"; };
+		B1950BA72A19E81200AC440B /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		B1B734AF2A23A9860046FC1F /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		B1B734B12A23B85F0046FC1F /* pathsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pathsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1950B5D2A1910A500AC440B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1950B972A19110800AC440B /* FirebaseFirestoreSwift in Frameworks */,
+				B1950B8F2A19110800AC440B /* FirebaseAnalytics in Frameworks */,
+				B1950B952A19110800AC440B /* FirebaseFirestore in Frameworks */,
+				B1950B932A19110800AC440B /* FirebaseAuth in Frameworks */,
+				B1950B912A19110800AC440B /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				B1950B992A19110800AC440B /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1950B6D2A1910A600AC440B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1950B772A1910A600AC440B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1950B572A1910A400AC440B = {
+			isa = PBXGroup;
+			children = (
+				B172FBAA2A25145000D4A047 /* JobViewUI.swift */,
+				B172FBAC2A25149800D4A047 /* ADDjobView_cuurct.swift */,
+				B172FBA82A25138200D4A047 /* bottomSheet.swift */,
+				B1B734B12A23B85F0046FC1F /* pathsView.swift */,
+				B172FBA62A24EC6A00D4A047 /* model.swift */,
+				B1B734AF2A23A9860046FC1F /* SignUp.swift */,
+				B1950BA72A19E81200AC440B /* home.swift */,
+				B1950BA52A194C6100AC440B /* forgetPassword.swift */,
+				B1950BA22A1934A900AC440B /* FirebaseUserManager.swift */,
+				B1950B632A1910A500AC440B /* hivedemotryApp.swift */,
+				B1950B9C2A19206100AC440B /* logIn.swift */,
+				B1950B652A1910A500AC440B /* ContentView.swift */,
+				B1950B622A1910A500AC440B /* hivedemotry */,
+				B1950B732A1910A600AC440B /* hivedemotryTests */,
+				B1950B7D2A1910A600AC440B /* hivedemotryUITests */,
+				B1950B612A1910A500AC440B /* Products */,
+				B1950BA42A19361D00AC440B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1950B612A1910A500AC440B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1950B602A1910A500AC440B /* hivedemotry.app */,
+				B1950B702A1910A600AC440B /* hivedemotryTests.xctest */,
+				B1950B7A2A1910A600AC440B /* hivedemotryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1950B622A1910A500AC440B /* hivedemotry */ = {
+			isa = PBXGroup;
+			children = (
+				B1950B9A2A19118100AC440B /* GoogleService-Info.plist */,
+				B1950B672A1910A600AC440B /* Assets.xcassets */,
+				B1950B692A1910A600AC440B /* Preview Content */,
+			);
+			path = hivedemotry;
+			sourceTree = "<group>";
+		};
+		B1950B692A1910A600AC440B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B1950B6A2A1910A600AC440B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1950B732A1910A600AC440B /* hivedemotryTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1950B742A1910A600AC440B /* hivedemotryTests.swift */,
+			);
+			path = hivedemotryTests;
+			sourceTree = "<group>";
+		};
+		B1950B7D2A1910A600AC440B /* hivedemotryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1950B7E2A1910A600AC440B /* hivedemotryUITests.swift */,
+				B1950B802A1910A600AC440B /* hivedemotryUITestsLaunchTests.swift */,
+			);
+			path = hivedemotryUITests;
+			sourceTree = "<group>";
+		};
+		B1950BA42A19361D00AC440B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1950B5F2A1910A500AC440B /* hivedemotry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1950B842A1910A600AC440B /* Build configuration list for PBXNativeTarget "hivedemotry" */;
+			buildPhases = (
+				B1950B5C2A1910A500AC440B /* Sources */,
+				B1950B5D2A1910A500AC440B /* Frameworks */,
+				B1950B5E2A1910A500AC440B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hivedemotry;
+			packageProductDependencies = (
+				B1950B8E2A19110800AC440B /* FirebaseAnalytics */,
+				B1950B902A19110800AC440B /* FirebaseAnalyticsWithoutAdIdSupport */,
+				B1950B922A19110800AC440B /* FirebaseAuth */,
+				B1950B942A19110800AC440B /* FirebaseFirestore */,
+				B1950B962A19110800AC440B /* FirebaseFirestoreSwift */,
+				B1950B982A19110800AC440B /* FirebaseStorage */,
+			);
+			productName = hivedemotry;
+			productReference = B1950B602A1910A500AC440B /* hivedemotry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1950B6F2A1910A600AC440B /* hivedemotryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1950B872A1910A600AC440B /* Build configuration list for PBXNativeTarget "hivedemotryTests" */;
+			buildPhases = (
+				B1950B6C2A1910A600AC440B /* Sources */,
+				B1950B6D2A1910A600AC440B /* Frameworks */,
+				B1950B6E2A1910A600AC440B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1950B722A1910A600AC440B /* PBXTargetDependency */,
+			);
+			name = hivedemotryTests;
+			productName = hivedemotryTests;
+			productReference = B1950B702A1910A600AC440B /* hivedemotryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1950B792A1910A600AC440B /* hivedemotryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1950B8A2A1910A600AC440B /* Build configuration list for PBXNativeTarget "hivedemotryUITests" */;
+			buildPhases = (
+				B1950B762A1910A600AC440B /* Sources */,
+				B1950B772A1910A600AC440B /* Frameworks */,
+				B1950B782A1910A600AC440B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1950B7C2A1910A600AC440B /* PBXTargetDependency */,
+			);
+			name = hivedemotryUITests;
+			productName = hivedemotryUITests;
+			productReference = B1950B7A2A1910A600AC440B /* hivedemotryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1950B582A1910A400AC440B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B1950B5F2A1910A500AC440B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B1950B6F2A1910A600AC440B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B1950B5F2A1910A500AC440B;
+					};
+					B1950B792A1910A600AC440B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B1950B5F2A1910A500AC440B;
+					};
+				};
+			};
+			buildConfigurationList = B1950B5B2A1910A400AC440B /* Build configuration list for PBXProject "hivedemotry" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1950B572A1910A400AC440B;
+			packageReferences = (
+				B1950B8D2A19110800AC440B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = B1950B612A1910A500AC440B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1950B5F2A1910A500AC440B /* hivedemotry */,
+				B1950B6F2A1910A600AC440B /* hivedemotryTests */,
+				B1950B792A1910A600AC440B /* hivedemotryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1950B5E2A1910A500AC440B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1950B6B2A1910A600AC440B /* Preview Assets.xcassets in Resources */,
+				B1950B682A1910A600AC440B /* Assets.xcassets in Resources */,
+				B1950B9B2A19118100AC440B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1950B6E2A1910A600AC440B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1950B782A1910A600AC440B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1950B5C2A1910A500AC440B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B172FBA92A25138200D4A047 /* bottomSheet.swift in Sources */,
+				B1B734B02A23A9860046FC1F /* SignUp.swift in Sources */,
+				B172FBAD2A25149800D4A047 /* ADDjobView_cuurct.swift in Sources */,
+				B1950BA82A19E81200AC440B /* home.swift in Sources */,
+				B172FBAB2A25145000D4A047 /* JobViewUI.swift in Sources */,
+				B1950B662A1910A500AC440B /* ContentView.swift in Sources */,
+				B1950BA62A194C6100AC440B /* forgetPassword.swift in Sources */,
+				B1950B642A1910A500AC440B /* hivedemotryApp.swift in Sources */,
+				B1B734B22A23B85F0046FC1F /* pathsView.swift in Sources */,
+				B1950B9D2A19206100AC440B /* logIn.swift in Sources */,
+				B172FBA72A24EC6A00D4A047 /* model.swift in Sources */,
+				B1950BA32A1934A900AC440B /* FirebaseUserManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1950B6C2A1910A600AC440B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1950B752A1910A600AC440B /* hivedemotryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1950B762A1910A600AC440B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1950B7F2A1910A600AC440B /* hivedemotryUITests.swift in Sources */,
+				B1950B812A1910A600AC440B /* hivedemotryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1950B722A1910A600AC440B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1950B5F2A1910A500AC440B /* hivedemotry */;
+			targetProxy = B1950B712A1910A600AC440B /* PBXContainerItemProxy */;
+		};
+		B1950B7C2A1910A600AC440B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1950B5F2A1910A500AC440B /* hivedemotry */;
+			targetProxy = B1950B7B2A1910A600AC440B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B1950B822A1910A600AC440B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1950B832A1910A600AC440B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1950B852A1910A600AC440B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hivedemotry/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.com.hivedemotry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1950B862A1910A600AC440B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hivedemotry/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.com.hivedemotry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1950B882A1910A600AC440B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.com.hivedemotryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hivedemotry.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hivedemotry";
+			};
+			name = Debug;
+		};
+		B1950B892A1910A600AC440B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.com.hivedemotryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hivedemotry.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hivedemotry";
+			};
+			name = Release;
+		};
+		B1950B8B2A1910A600AC440B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.com.hivedemotryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hivedemotry;
+			};
+			name = Debug;
+		};
+		B1950B8C2A1910A600AC440B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.com.hivedemotryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hivedemotry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1950B5B2A1910A400AC440B /* Build configuration list for PBXProject "hivedemotry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1950B822A1910A600AC440B /* Debug */,
+				B1950B832A1910A600AC440B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1950B842A1910A600AC440B /* Build configuration list for PBXNativeTarget "hivedemotry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1950B852A1910A600AC440B /* Debug */,
+				B1950B862A1910A600AC440B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1950B872A1910A600AC440B /* Build configuration list for PBXNativeTarget "hivedemotryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1950B882A1910A600AC440B /* Debug */,
+				B1950B892A1910A600AC440B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1950B8A2A1910A600AC440B /* Build configuration list for PBXNativeTarget "hivedemotryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1950B8B2A1910A600AC440B /* Debug */,
+				B1950B8C2A1910A600AC440B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B1950B8D2A19110800AC440B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1950B8E2A19110800AC440B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1950B8D2A19110800AC440B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B1950B902A19110800AC440B /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1950B8D2A19110800AC440B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		B1950B922A19110800AC440B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1950B8D2A19110800AC440B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B1950B942A19110800AC440B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1950B8D2A19110800AC440B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B1950B962A19110800AC440B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1950B8D2A19110800AC440B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		B1950B982A19110800AC440B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1950B8D2A19110800AC440B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B1950B582A1910A400AC440B /* Project object */;
+}
